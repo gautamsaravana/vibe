@@ -1,9 +1,8 @@
 import axios from "axios";
-
-const API_URL = "http://localhost:2025/expresscinema/saveMovie";
+import Api from "../API/Api";
 
 const addMovie = (movie) => {
-  return axios.post(API_URL, movie);
+  return Api.post("/saveMovie", movie);
 };
 
 const MovieService = { addMovie };
