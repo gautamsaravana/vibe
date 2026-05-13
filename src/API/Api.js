@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const Api=axios.create({
-    baseURL:"http://3.106.195.82/expresscinema/",
+    baseURL:"http://16.176.23.221/expresscinema/",
     headers: {
         "Content-Type": "application/json"
     }
